@@ -25,6 +25,7 @@ export const Safes = () => {
     const [searchTerm,setsearchTearm] = useState("")
     const [activedata, setactivedata] = useState(null)
     const [activateSecret, setactivateSecret] = useState(false)
+    const [nosafes, setnosafes] = useState(false)
   
    
     console.log(state)
@@ -84,7 +85,15 @@ export const Safes = () => {
                         } else if(val.name.toLowerCase().includes(searchTerm.toLowerCase())){
                             return val
                         }
-                    }).map((element,i) => { return <SafesCard key={i} element={element} handledelete={(id)=>handledelete(id)} handleeditdata={(element)=>handleedit(element)} setactivedata={(element)=>setactivedata(element)} activeid={activedata&&activedata.id}/> })}
+                       
+                    }).length!==0 ?state.filter((val)=>{
+                        if (searchTerm ===""){
+                            return val
+                        } else if(val.name.toLowerCase().includes(searchTerm.toLowerCase())){
+                            return val
+                        }
+                       
+                    }).map((element,i) => { return <SafesCard key={i} element={element} handledelete={(id)=>handledelete(id)} handleeditdata={(element)=>handleedit(element)} setactivedata={(element)=>setactivedata(element)} activeid={activedata&&activedata.id}/> }):<div>nosafesfound</div>}
                     <img src={add} alt="" className="left-add-img" onClick={() => setshow(true)}/></div>}
                     <div className="model model-hidden"></div>
                 </section>

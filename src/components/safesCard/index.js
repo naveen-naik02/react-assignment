@@ -11,6 +11,7 @@ const SafesCard = ({ element, handledelete, handleeditdata,setactivedata,activei
         setactivedata(el)
 
     }
+    
     return (
         <div className={activeid===element.id ?'safes-cards':'select-cards'} onClick={()=>toggleclass(element)}> 
         
