@@ -26,7 +26,7 @@ function App() {
           <Route path="/serviceAccounts" element={<ServiceAccounts/>}></Route>
           <Route path="/iam" element={<IAM/>}></Route>
           <Route path="/azure" element={<Azure/>}></Route>
-          <Route path="*" element={<Navigate to ="/safes" />}/>
+          <Route path="/" element={<Navigate to ="/safes" />}/>
         </Routes>
       </div>
 
