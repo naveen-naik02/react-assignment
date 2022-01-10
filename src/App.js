@@ -8,6 +8,7 @@ import { IAM } from './pages/IAM/index.js';
 import { Azure } from './pages/Azure/index.js';
 import  {Safes}  from './pages/Safes/index.js';
 import { Vault } from './pages/Vault/index.js';
+
 import {
   BrowserRouter,
   Routes,
