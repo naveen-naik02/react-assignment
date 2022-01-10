@@ -1,0 +1,314 @@
+.container {
+  background: linear-gradient(0deg, #2f3545, #1d212c);
+  height: calc(100vh - 4rem);
+  width: 100%;
+  overflow: auto;
+  color: #fff;
+  margin: auto;
+}
+
+.safes {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.safes-left {
+  background: #151820;
+  height: 85%;
+  width: 40%;
+  position: relative;
+}
+
+.all-safes span {
+  font-weight: 400;
+  color: #5e627c;
+}
+
+.search-box {
+  background: #20232e;
+  display: flex;
+  padding: 0.2rem 0.5rem;
+  align-items: center;
+  display: flex;
+}
+
+.search-icon {
+  width: 1.5rem;
+  /* height: 2.5rem; */
+}
+
+.search-input {
+  background: #20232e;
+  border: 0;
+  caret-color: #5e627c;
+  color: #5e627c;
+  outline: none;
+  /* font-size: 1.6rem; */
+}
+
+.header-search-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.4rem 0 0.8rem;
+  height: 9%;
+}
+
+.h1 {
+  height: 0.1rem;
+  background: #2a2e3e;
+}
+
+.left-background {
+  background-image: url("../../images/safe.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50%;
+  width: 13rem;
+  height: 13rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.add-img {
+  width: 3.4rem;
+  cursor: pointer;
+}
+
+.left-add-img {
+  width: 3.4rem;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.left-bottom {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.safes-cards-wrap {
+  height: 87%;
+  overflow: auto;
+}
+
+.right-banner {
+  background-image: url("../../images/safe-banner.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 50%;
+  margin: -0.37405rem 0 -1rem;
+  padding: 3rem 0rem;
+}
+
+.secrets {
+  background: linear-gradient(180deg, #151820, #2c3040);
+  height: calc(100% - 7.6rem);
+}
+
+.right-description {
+  text-align: center;
+  width: 25rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #c4c4c4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 0.7rem;
+  text-align: left;
+}
+
+.safes-right {
+  height: 85%;
+  width: 60%;
+}
+
+.left-caption {
+  position: absolute;
+    bottom: 10.5rem;
+    font-size: 0.7rem;
+}
+
+.all-safes {
+  font-weight: 700;
+}
+
+.no-safes-created {
+  text-align: center;
+  width: 25rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.secrets-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.secret-add-folder {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+.h1-1 {
+  height: 0.1rem;
+  width: 95%;
+  background-color: #222632;
+  margin: auto;
+}
+
+.right-caption {
+  width: 72%;
+}
+
+.secrets-count{
+  margin: 0.5rem 0;
+  color: #5e627c;
+  padding: 0 1rem;
+}
+
+.secrets_img{
+  width: 8rem;
+}
+
+.secrets_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  height: 75%;
+  gap: 0.5rem;
+}
+
+.secrets-caption{
+  color: #5e627c;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.secrets__caption-highlight {
+  color: #fff;
+}
+
+.cards-safe-icon {
+  width: 1.5rem;
+}
+
+.edit {
+  width: 0.8rem;
+  cursor: pointer;
+}
+
+.delete-icon {
+  width: 0.8rem;
+  cursor: pointer;
+}
+
+.safes-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem;
+  background: linear-gradient(
+90deg,#72134b,#1d212c);
+}
+
+.safes-name-wrap {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+
+.safe-name-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.update-text {
+  color: #5e627c;
+  font-size: 0.7rem;
+}
+
+.edit-delete-wrap {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.safes-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 18rem;
+}
+
+.select-card{
+  background-color: #151820;
+}
+
+.select-cards{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem;
+}
+
+.secrets-hidden{
+  background: linear-gradient(180deg, #151820, #2c3040);
+  height: calc(100% - 7.6rem);
+
+}
+
+.secret-add-folderactive {
+  width: 1.4rem;
+  height: 1.4rem;
+  background: #e20074;
+}
+
+.secet-wrap {
+  overflow-x: hidden;
+  height: 74%;
+  overflow-y: auto;
+}
+
+.right-captions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding: 0 0 0 10rem;
+  gap: 0.5rem;
+}
+
+.button {
+  background: #454c5e;
+  border: none;
+  color: #fff;
+  padding: 5px 10px 5px 10px;
+  margin-top: 1rem;
+}
+
+.secret-wrap {
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 75.8%;
+}
